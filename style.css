@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+/* header css */
+.header {
+    background-color: #1F2937;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    gap: 12px;
+    margin: 100px;
+    margin-top: 10px;
+    margin-right: 250px;
+    align-items: flex-start;
+}
+
+li {
+   list-style-type: none;
+   color: white;
+}
+
+/* hero content */
+
+
+.heroContent {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.HeroMain{
+    color: white;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+width: 800px;
+margin-left: 150px;
+}
+
+.HeroTitle{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.HeroSubText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.HeroSub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+}
+
+img {
+    width: 500px;
+    height: 250px;
+    justify-content: center ;
+    align-items: center;
+    margin: 30px;
+}
+
+/* main content */
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxMain {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.boxContainer {
+    width: 120px;
+    justify-content: center;
+}
+
+.box {
+    outline: 2px solid #3882F6;
+    padding: 60px;
+    border-radius: 8px;
+}
+
+.boxText {
+    width: 140px;
+}
+
+.botContent {
+    background-color: blue;
+}
+
+.footer {
+    background-color: brown;
+}
